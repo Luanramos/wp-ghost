@@ -3,7 +3,20 @@
 
 
 // .comments-area {}
-.comments-title {
+.comments-title, .comment-reply-title {
+	font-size: 30px;
+	line-height: 110%;
+	margin-bottom: 20px;
+
+	a {
+		float: right;
+		color: inherit;
+		font-size: 17px;
+	}
+
+}
+.required {
+	color: red; // variable
 }
 
 .comment-list {
@@ -11,7 +24,7 @@
 	display: inline-block;
 
 	li {
-		margin-bottom: 20px;
+		margin-bottom: 30px;
 	}
 
 	a {
@@ -20,10 +33,7 @@
 	}
 
 	.children {
-		margin: 20px 0 0 50px;
-	}
-
-	.comment-body {
+		margin: 30px 0 0 50px;
 	}
 
 	.comment-meta {

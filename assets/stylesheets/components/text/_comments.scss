@@ -1,3 +1,87 @@
-.comments-area {
-	
+// Variables here with a ' _ '
+
+
+
+// .comments-area {}
+.comments-title {
+}
+
+.comment-list {
+	margin-bottom: 30px;
+	display: inline-block;
+
+	li {
+		margin-bottom: 20px;
+	}
+
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
+
+	.children {
+		margin: 20px 0 0 50px;
+	}
+
+	.comment-body {
+	}
+
+	.comment-meta {
+
+		.avatar {
+			float: left;
+			margin-right: 20px;
+		}
+		.fn { 
+			font-size: 18px;
+			font-weight: bold; 
+			margin: 11px 0 4px 0;
+			display: inline-block;
+		}
+
+		.says { display: none; }
+		.comment-awaiting-moderation { 
+			color: yellow;
+			margin: 5px 5px -8px 5px; 
+		}
+
+	}
+
+	.comment-content {
+		clear: both;
+		line-height: 130%;
+		margin: 20px 0 15px 0;
+
+		a { text-decoration: underline; }
+	}
+
+	.reply {
+		a {
+			width: auto;
+			padding: 3px 9px;
+			line-height: 120%;
+			text-decoration: none;
+			display: inline-block;
+			@extend %elementsForm;
+		}
+	}
+
+}
+
+.comment-form {
+
+	label {
+		display: block;
+		margin-bottom: 6px;
+	}
+
+	p {
+		margin-bottom: 10px;
+		line-height: 130%;
+	}
+
+	.submit {
+		padding: 3px 9px;
+	}
+
 }

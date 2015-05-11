@@ -829,11 +829,12 @@ blockquote {
   margin-bottom: 20px; }
   .comments-title a, .comment-reply-title a {
     float: right;
-    color: inherit;
-    font-size: 17px; }
+    font-size: 17px;
+    color: #797979;
+    text-decoration: none; }
 
 .required {
-  color: red; }
+  color: #D80F0F; }
 
 .comment-list {
   margin-bottom: 30px;
@@ -841,7 +842,7 @@ blockquote {
   .comment-list li {
     margin-bottom: 30px; }
   .comment-list a {
-    color: inherit;
+    color: #797979;
     text-decoration: none; }
   .comment-list .children {
     margin: 30px 0 0 50px; }
@@ -851,19 +852,19 @@ blockquote {
   .comment-list .comment-meta .fn {
     font-size: 18px;
     font-weight: bold;
-    margin: 11px 0 4px 0;
+    margin: 8px 0 4px 0;
     display: inline-block; }
   .comment-list .comment-meta .says {
     display: none; }
   .comment-list .comment-meta .comment-awaiting-moderation {
-    color: yellow;
+    color: #009900;
     margin: 5px 5px -8px 5px; }
   .comment-list .comment-content {
     clear: both;
     line-height: 130%;
     margin: 20px 0 15px 0; }
     .comment-list .comment-content a {
-      text-decoration: underline; }
+      text-decoration: none; }
   .comment-list .reply a {
     width: auto;
     padding: 3px 9px;
